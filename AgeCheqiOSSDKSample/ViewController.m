@@ -9,8 +9,8 @@
 #import "ViewController.h"
 #import "AgeCheqLib.h"
 
-#define developer_key @"06c3a8ba-8d2e-429c-9ce6-4f86a70815d6"
-#define application_key @"84989b93-9010-4e5b-9311-b04de4d9fba4"
+#define developer_key @"ENTER_DEVELOPER_KEY_HERE"
+#define application_key @"ENTER_APPLICATION_ID_HERE"
 
 NSString *DeviceID = @"";
 NSString *ParentDashboardID = @"";
