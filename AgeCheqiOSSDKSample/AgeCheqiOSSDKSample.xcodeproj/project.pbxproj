@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4991134A1AF124E100156CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 499113491AF124E100156CA5 /* main.m */; };
+		4991134D1AF124E100156CA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991134C1AF124E100156CA5 /* AppDelegate.m */; };
+		499113501AF124E100156CA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991134F1AF124E100156CA5 /* ViewController.m */; };
+		499113531AF124E100156CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499113511AF124E100156CA5 /* Main.storyboard */; };
+		499113551AF124E100156CA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499113541AF124E100156CA5 /* Images.xcassets */; };
+		499113581AF124E100156CA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 499113561AF124E100156CA5 /* LaunchScreen.xib */; };
+		499113641AF124E100156CA5 /* AgeCheqiOSSDKSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 499113631AF124E100156CA5 /* AgeCheqiOSSDKSampleTests.m */; };
+		4991136F1AF1251000156CA5 /* AgeCheqLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4991136D1AF1251000156CA5 /* AgeCheqLib.a */; };
+		499113711AF1251A00156CA5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499113701AF1251A00156CA5 /* CFNetwork.framework */; };
+		499113731AF1252400156CA5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499113721AF1252400156CA5 /* SystemConfiguration.framework */; };
+		499113751AF1252E00156CA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499113741AF1252E00156CA5 /* CoreGraphics.framework */; };
+		499113771AF1253400156CA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499113761AF1253400156CA5 /* UIKit.framework */; };
+		499113791AF1253B00156CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499113781AF1253B00156CA5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4991135E1AF124E100156CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4991133C1AF124E100156CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499113431AF124E100156CA5;
+			remoteInfo = AgeCheqiOSSDKSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		499113441AF124E100156CA5 /* AgeCheqiOSSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeCheqiOSSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499113481AF124E100156CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499113491AF124E100156CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4991134B1AF124E100156CA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4991134C1AF124E100156CA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4991134E1AF124E100156CA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4991134F1AF124E100156CA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		499113521AF124E100156CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		499113541AF124E100156CA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		499113571AF124E100156CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4991135D1AF124E100156CA5 /* AgeCheqiOSSDKSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeCheqiOSSDKSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499113621AF124E100156CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499113631AF124E100156CA5 /* AgeCheqiOSSDKSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgeCheqiOSSDKSampleTests.m; sourceTree = "<group>"; };
+		4991136D1AF1251000156CA5 /* AgeCheqLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AgeCheqLib.a; sourceTree = "<group>"; };
+		4991136E1AF1251000156CA5 /* AgeCheqLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeCheqLib.h; sourceTree = "<group>"; };
+		499113701AF1251A00156CA5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		499113721AF1252400156CA5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		499113741AF1252E00156CA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		499113761AF1253400156CA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		499113781AF1253B00156CA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499113411AF124E100156CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499113791AF1253B00156CA5 /* Foundation.framework in Frameworks */,
+				499113771AF1253400156CA5 /* UIKit.framework in Frameworks */,
+				499113751AF1252E00156CA5 /* CoreGraphics.framework in Frameworks */,
+				499113731AF1252400156CA5 /* SystemConfiguration.framework in Frameworks */,
+				499113711AF1251A00156CA5 /* CFNetwork.framework in Frameworks */,
+				4991136F1AF1251000156CA5 /* AgeCheqLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4991135A1AF124E100156CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4991133B1AF124E100156CA5 = {
+			isa = PBXGroup;
+			children = (
+				499113781AF1253B00156CA5 /* Foundation.framework */,
+				499113761AF1253400156CA5 /* UIKit.framework */,
+				499113741AF1252E00156CA5 /* CoreGraphics.framework */,
+				499113721AF1252400156CA5 /* SystemConfiguration.framework */,
+				499113701AF1251A00156CA5 /* CFNetwork.framework */,
+				499113461AF124E100156CA5 /* AgeCheqiOSSDKSample */,
+				499113601AF124E100156CA5 /* AgeCheqiOSSDKSampleTests */,
+				499113451AF124E100156CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499113451AF124E100156CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499113441AF124E100156CA5 /* AgeCheqiOSSDKSample.app */,
+				4991135D1AF124E100156CA5 /* AgeCheqiOSSDKSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499113461AF124E100156CA5 /* AgeCheqiOSSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				4991134B1AF124E100156CA5 /* AppDelegate.h */,
+				4991136D1AF1251000156CA5 /* AgeCheqLib.a */,
+				4991136E1AF1251000156CA5 /* AgeCheqLib.h */,
+				4991134C1AF124E100156CA5 /* AppDelegate.m */,
+				4991134E1AF124E100156CA5 /* ViewController.h */,
+				4991134F1AF124E100156CA5 /* ViewController.m */,
+				499113511AF124E100156CA5 /* Main.storyboard */,
+				499113541AF124E100156CA5 /* Images.xcassets */,
+				499113561AF124E100156CA5 /* LaunchScreen.xib */,
+				499113471AF124E100156CA5 /* Supporting Files */,
+			);
+			path = AgeCheqiOSSDKSample;
+			sourceTree = "<group>";
+		};
+		499113471AF124E100156CA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				499113481AF124E100156CA5 /* Info.plist */,
+				499113491AF124E100156CA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		499113601AF124E100156CA5 /* AgeCheqiOSSDKSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				499113631AF124E100156CA5 /* AgeCheqiOSSDKSampleTests.m */,
+				499113611AF124E100156CA5 /* Supporting Files */,
+			);
+			path = AgeCheqiOSSDKSampleTests;
+			sourceTree = "<group>";
+		};
+		499113611AF124E100156CA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				499113621AF124E100156CA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499113431AF124E100156CA5 /* AgeCheqiOSSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499113671AF124E100156CA5 /* Build configuration list for PBXNativeTarget "AgeCheqiOSSDKSample" */;
+			buildPhases = (
+				499113401AF124E100156CA5 /* Sources */,
+				499113411AF124E100156CA5 /* Frameworks */,
+				499113421AF124E100156CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgeCheqiOSSDKSample;
+			productName = AgeCheqiOSSDKSample;
+			productReference = 499113441AF124E100156CA5 /* AgeCheqiOSSDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4991135C1AF124E100156CA5 /* AgeCheqiOSSDKSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4991136A1AF124E100156CA5 /* Build configuration list for PBXNativeTarget "AgeCheqiOSSDKSampleTests" */;
+			buildPhases = (
+				499113591AF124E100156CA5 /* Sources */,
+				4991135A1AF124E100156CA5 /* Frameworks */,
+				4991135B1AF124E100156CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4991135F1AF124E100156CA5 /* PBXTargetDependency */,
+			);
+			name = AgeCheqiOSSDKSampleTests;
+			productName = AgeCheqiOSSDKSampleTests;
+			productReference = 4991135D1AF124E100156CA5 /* AgeCheqiOSSDKSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4991133C1AF124E100156CA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "___AGECHEQ___";
+				TargetAttributes = {
+					499113431AF124E100156CA5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4991135C1AF124E100156CA5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 499113431AF124E100156CA5;
+					};
+				};
+			};
+			buildConfigurationList = 4991133F1AF124E100156CA5 /* Build configuration list for PBXProject "AgeCheqiOSSDKSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4991133B1AF124E100156CA5;
+			productRefGroup = 499113451AF124E100156CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499113431AF124E100156CA5 /* AgeCheqiOSSDKSample */,
+				4991135C1AF124E100156CA5 /* AgeCheqiOSSDKSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499113421AF124E100156CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499113531AF124E100156CA5 /* Main.storyboard in Resources */,
+				499113581AF124E100156CA5 /* LaunchScreen.xib in Resources */,
+				499113551AF124E100156CA5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4991135B1AF124E100156CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499113401AF124E100156CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499113501AF124E100156CA5 /* ViewController.m in Sources */,
+				4991134D1AF124E100156CA5 /* AppDelegate.m in Sources */,
+				4991134A1AF124E100156CA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499113591AF124E100156CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499113641AF124E100156CA5 /* AgeCheqiOSSDKSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4991135F1AF124E100156CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499113431AF124E100156CA5 /* AgeCheqiOSSDKSample */;
+			targetProxy = 4991135E1AF124E100156CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		499113511AF124E100156CA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499113521AF124E100156CA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		499113561AF124E100156CA5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499113571AF124E100156CA5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		499113651AF124E100156CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499113661AF124E100156CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499113681AF124E100156CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgeCheqiOSSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AgeCheqiOSSDKSample",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		499113691AF124E100156CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgeCheqiOSSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AgeCheqiOSSDKSample",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4991136B1AF124E100156CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgeCheqiOSSDKSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeCheqiOSSDKSample.app/AgeCheqiOSSDKSample";
+			};
+			name = Debug;
+		};
+		4991136C1AF124E100156CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgeCheqiOSSDKSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeCheqiOSSDKSample.app/AgeCheqiOSSDKSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4991133F1AF124E100156CA5 /* Build configuration list for PBXProject "AgeCheqiOSSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499113651AF124E100156CA5 /* Debug */,
+				499113661AF124E100156CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499113671AF124E100156CA5 /* Build configuration list for PBXNativeTarget "AgeCheqiOSSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499113681AF124E100156CA5 /* Debug */,
+				499113691AF124E100156CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4991136A1AF124E100156CA5 /* Build configuration list for PBXNativeTarget "AgeCheqiOSSDKSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4991136B1AF124E100156CA5 /* Debug */,
+				4991136C1AF124E100156CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4991133C1AF124E100156CA5 /* Project object */;
+}
